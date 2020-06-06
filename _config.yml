@@ -39,7 +39,7 @@ baseurl: "/Metodi_Numerici" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-  skin: solarized
+  skin: dark
   social_links:
     #twitter: fastdotai
     github: Edoarder
