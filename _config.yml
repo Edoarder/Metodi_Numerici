@@ -39,10 +39,13 @@ baseurl: "/Metodi_Numerici" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-  skin: solarized-dark
+  skin: solarized
   social_links:
     #twitter: fastdotai
     github: Edoarder
+    instagram: magggioni
+    telegram: Edoarder
+    
 
 # Set this to true to get LaTeX math equation support
 use_math: true
