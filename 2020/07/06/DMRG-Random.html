@@ -10,13 +10,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Analisi DMRG del modello di Ising 1D ad interazioni random" />
 <meta property="og:description" content="Analisi DMRG del modello di Ising 1D ad interazioni random" />
-<link rel="canonical" href="https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html" />
-<meta property="og:url" content="https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html" />
+<link rel="canonical" href="https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html" />
+<meta property="og:url" content="https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html" />
 <meta property="og:site_name" content="Relazioni di Edoardo Maggioni" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-06T00:00:00-05:00" />
+<meta property="article:published_time" content="2020-07-06T00:00:00-05:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Edoardo Maggioni"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html"},"description":"Analisi DMRG del modello di Ising 1D ad interazioni random","@type":"BlogPosting","url":"https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html","headline":"Modulo 5","dateModified":"2020-06-06T00:00:00-05:00","datePublished":"2020-06-06T00:00:00-05:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Edoardo Maggioni"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html"},"description":"Analisi DMRG del modello di Ising 1D ad interazioni random","@type":"BlogPosting","url":"https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html","headline":"Modulo 5","dateModified":"2020-07-06T00:00:00-05:00","datePublished":"2020-07-06T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Metodi_Numerici/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://edoarder.github.io/Metodi_Numerici/feed.xml" title="Relazioni di Edoardo Maggioni" /><link rel="shortcut icon" type="image/x-icon" href="/Metodi_Numerici/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Modulo 5 | Relazioni di Edoardo Maggioni</title>
@@ -26,13 +26,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Analisi DMRG del modello di Ising 1D ad interazioni random" />
 <meta property="og:description" content="Analisi DMRG del modello di Ising 1D ad interazioni random" />
-<link rel="canonical" href="https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html" />
-<meta property="og:url" content="https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html" />
+<link rel="canonical" href="https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html" />
+<meta property="og:url" content="https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html" />
 <meta property="og:site_name" content="Relazioni di Edoardo Maggioni" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-06-06T00:00:00-05:00" />
+<meta property="article:published_time" content="2020-07-06T00:00:00-05:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Edoardo Maggioni"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html"},"description":"Analisi DMRG del modello di Ising 1D ad interazioni random","@type":"BlogPosting","url":"https://edoarder.github.io/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html","headline":"Modulo 5","dateModified":"2020-06-06T00:00:00-05:00","datePublished":"2020-06-06T00:00:00-05:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Edoardo Maggioni"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html"},"description":"Analisi DMRG del modello di Ising 1D ad interazioni random","@type":"BlogPosting","url":"https://edoarder.github.io/Metodi_Numerici/2020/07/06/DMRG-Random.html","headline":"Modulo 5","dateModified":"2020-07-06T00:00:00-05:00","datePublished":"2020-07-06T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -103,8 +103,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Modulo 5</h1><p class="page-description">Analisi DMRG del modello di Ising 1D ad interazioni random</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-06T00:00:00-05:00" itemprop="datePublished">
-        Jun 6, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Modulo 5</h1><p class="page-description">Analisi DMRG del modello di Ising 1D ad interazioni random</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-06T00:00:00-05:00" itemprop="datePublished">
+        Jul 6, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -120,13 +120,13 @@ window.onload = wrap_img;
         <div class="pb-5 d-flex flex-wrap flex-justify-end">
           
           <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/Edoarder/Metodi_Numerici/master?filepath=_notebooks%2F2020-06-06-DMRG-Random_Ising-8.ipynb" target="_blank">
+    <a href="https://mybinder.org/v2/gh/Edoarder/Metodi_Numerici/master?filepath=_notebooks%2F2020-07-06-DMRG-Random.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/Metodi_Numerici/assets/badges/binder.svg" alt="Open In Binder"/>
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/Edoarder/Metodi_Numerici/blob/master/_notebooks/2020-06-06-DMRG-Random_Ising-8.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/Edoarder/Metodi_Numerici/blob/master/_notebooks/2020-07-06-DMRG-Random.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/Metodi_Numerici/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
@@ -138,7 +138,7 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2020-06-06-DMRG-Random_Ising-8.ipynb
+# file to edit: _notebooks/2020-07-06-DMRG-Random.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -1663,7 +1663,7 @@ Ad ogni ciclo sono estratti due numeri random, dalla stessa distribuzione, uno p
 
 
 
-  </div><a class="u-url" href="/Metodi_Numerici/2020/06/06/DMRG-Random_Ising-8.html" hidden></a>
+  </div><a class="u-url" href="/Metodi_Numerici/2020/07/06/DMRG-Random.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
